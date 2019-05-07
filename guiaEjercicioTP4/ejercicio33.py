@@ -5,7 +5,7 @@
 # se obtiene cada vez una aproximación mejor. Desarrollar un programa que calcule la raíz cuadrada aproximada de un número entero positivo n, 
 # utilizando como primera aproximación a n/2. Detener el proceso cuando la diferencia entre dos cálculos sucesivos sea menor a 0,0001.
 
-aproximacionTolerada = 0.000000000001
+aproximacionTolerada = 0.0001
 entero = int(input("inserte un valor enter positivo para poder calcular su raiz: "))
 raizAnterior = entero
 raizActual = ((entero / 2) + 2) / 2
